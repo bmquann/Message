@@ -36,7 +36,7 @@ public class Main {
                                 
                                 
                             }else{
-                                System.out.println("Enter again");
+                                System.out.println("Messages must not exceed 250 characters. Enter again");
                             }
                         }while(!(message.equals("done")));
                         if(message.equals("done")){
